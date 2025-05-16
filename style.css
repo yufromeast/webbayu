@@ -6,12 +6,12 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #0d0f1a;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 nav {
-  background: #111;
+  background: #001f3f;
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -23,7 +23,7 @@ nav {
 
 nav .logo {
   font-size: 1.5em;
-  color: #00e5ff;
+  color: #00529f;
 }
 
 nav ul {
@@ -33,26 +33,26 @@ nav ul {
 }
 
 nav ul li a {
-  color: #eee;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
   transition: 0.3s;
 }
 
 nav ul li a:hover {
-  color: #00e5ff;
+  color: #ffc107;
 }
 
 .hero {
   padding: 100px 20px;
   text-align: center;
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to right, #000000, #001f3f, #000000);
 }
 
 .hero h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
-  color: #00e5ff;
+  color: #00529f;;
 }
 
 .hero p {
@@ -63,8 +63,8 @@ nav ul li a:hover {
 .hero .btn {
   display: inline-block;
   padding: 10px 25px;
-  background-color: #00e5ff;
-  color: #000;
+  background-color: #00529f;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
   border-radius: 8px;
@@ -79,7 +79,7 @@ section {
 h2 {
   text-align: center;
   margin-bottom: 30px;
-  color: #00e5ff;
+  color: #00529f;
 }
 
 .features {
@@ -90,7 +90,7 @@ h2 {
 }
 
 .feature-box {
-  background: #1e1f2f;
+  background: #111111;
   padding: 20px;
   border-radius: 10px;
   width: 250px;
