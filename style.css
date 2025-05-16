@@ -44,14 +44,9 @@ nav ul li a:hover {
 }
 
 .hero {
-  position: relative;
   padding: 100px 20px;
   text-align: center;
-  background-image: url('inter.png')
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
 .hero h1 {
