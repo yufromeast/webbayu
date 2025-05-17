@@ -47,10 +47,6 @@ nav ul li a:hover {
   padding: 100px 20px;
   text-align: center;
   background: linear-gradient(to right, #000000, #001f3f, #000000);
-  background-image: url('inter.png'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .hero h1 {
