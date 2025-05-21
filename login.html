@@ -13,15 +13,31 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-color: #0a0b16;
+      background: url('messi.png') no-repeat center
+    center fixed;
+      background-size: cover;
       color: white;
+      position: relative;
     }
+
+  .login-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(13, 15, 26, 0.85);
+  z-index: 0;
+}
 
     .login-box {
       background-color: #001f3f;
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px #0077ff;
+      z-index: 1;
+      position: relative;
     }
 
     .login-box h2 {
