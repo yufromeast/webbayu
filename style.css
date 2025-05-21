@@ -10,6 +10,36 @@ body {
   color: #ffffff;
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 1.8em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #001f3f;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px 0;
+    z-index: 999;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
 nav {
   background: #001f3f;
   padding: 15px 30px;
