@@ -13,7 +13,7 @@
 
      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
 
-     <ul id="menu">
+     <ul id="menu" class="hidden">
        <li><a href="#beranda">Beranda</a></li>
        <li><a href="#tentang">Tentang</a></li>
        <li><a href="#fitur">Fitur</a></li>
@@ -21,14 +21,7 @@
        <li><a href="#lokasi">Lokasi</a></li>
        <li><a href="login.html">Login</a></li>
      </ul>
-
-     <script>
-  function toggleMenu() {
-    const menu = document.getElementById("menu");
-    menu.classList.toggle("show");
-  }
-     </script>
-  </nav>
+    </nav>
 
   <section class="hero" id="beranda">
     <h1>Selamat Datang di RuangTaktik</h1>
@@ -91,4 +84,10 @@
     <p>&copy; 2025 RuangTaktik. Semua Hak Dilindungi.</p>
   </footer>
 </body>
+  <script>
+  function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("show");
+  }
+   </script>
 </html>
