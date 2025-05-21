@@ -45,10 +45,6 @@ nav ul {
   z-index: 999;
 }
 
-nav ul li {
-  list-style: none;
-}
-  
 nav ul li a {
   color: #ffffff;
   text-decoration: none;
@@ -58,10 +54,6 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #ffc107;
-}
-
-nav ul.show {
-  display: flex;
 }
   
 .hero {
